@@ -2,6 +2,8 @@
 سیستم حضور غیاب نوشته شده با php
 و استفاده از جی پی اس دستگاه و نشان جهت تایید مکان کارمند و تطبیق با محل کار مورد نظر شما
 // Attendace system that using from GeoLocation and Neshan API for verfaction your workspace location
+
+
 جهت استفاده فایل هارو رو فولدر مربوطه به سیستم سرور یا لوکال هاست خود انتقال دهید
 سپس فایل دیتابیس موجود در فولدر 
 database 
