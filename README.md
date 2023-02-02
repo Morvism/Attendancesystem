@@ -22,7 +22,7 @@ db_connect.php
 
 یوزر و پسود:
 
-Admin	admin123#
+Admin	admin123
 
 
 در فایل
