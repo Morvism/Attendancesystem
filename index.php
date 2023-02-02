@@ -102,7 +102,7 @@ require_once 'jdf.php';
 			dataType: "json",
 			url: url,
 			headers: {
-				"Api-Key": "service.f40c176fde70402c8f5154a53d795c61"
+				"Api-Key": "Neshan-API"
 			},
 			success: function(data, status, xhr) {
 				console.log('data: ', data);
@@ -115,19 +115,8 @@ require_once 'jdf.php';
 				if (data.formatted_address != Currect.add1) {
 					document.getElementById("SnD").style.visibility = "hidden";
 					alert("شما اکنون در " + data.formatted_address + " " + "هستید");
-				} else if (data.formatted_address != Currect.add2) {
-					document.getElementById("SnD").style.visibility = "hidden";
-					alert("شما اکنون در " + data.formatted_address + " " + "هستید");
-				} else if (data.formatted_address != Currect.add3) {
-					document.getElementById("SnD").style.visibility = "hidden";
-					alert("شما اکنون در " + data.formatted_address + " " + "هستید");
-				}
-
-
-				for (data.formatted_address in Currect) {
-					document.getElementById("SnD").style.visibility = "visible";
-
-				}
+				
+			
 			}
 
 		});
